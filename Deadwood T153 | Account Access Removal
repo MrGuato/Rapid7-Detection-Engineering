@@ -1,0 +1,7 @@
+//LEQL
+
+where (event.command_line contains "net.exe" AND event.command_line contains "password" AND event.command_line matches /.*[a-zA-Z0-9]{32}.*/) OR (event.command_line contains "winlogon.exe" AND event.event_id = 4625)
+
+//This query does the following:
+//Detects Password Changes: Looks for events where net.exe is used to change a password to a random 32-character string.
+//Detects Process Termination: Looks for events where winlogon.exe is terminated to prevent logins.
