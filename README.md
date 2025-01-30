@@ -1,6 +1,7 @@
 <h1>Rapid7 Detection Engineering Repository</h1>
 
-![Stars](https://img.shields.io/github/stars/MrGuato/rapid7-detection-engineering) ![Detections](https://img.shields.io/github/directory-file-count/MrGuato/Rapid7-Detection-Engineering/detections)
+![Stars](https://img.shields.io/github/stars/MrGuato/Rapid7-Detection-Engineering) 
+![Detections](https://img.shields.io/github/directory-file-count/MrGuato/Rapid7-Detection-Engineering/detections)
 
 Welcome to the Rapid7 Detection Engineering Repository! This repository is dedicated to providing a collection of detection rules and methods to enhance security monitoring and threat detection for the community.
 
