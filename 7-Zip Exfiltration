@@ -1,0 +1,18 @@
+Detection Explanation:
+Detects File Zipping: This part of the query looks for events where the command line contains "7z.exe" and "a" to identify the use of 7-Zip to archive files.
+
+Public Sending Detection: This part of the query looks for events where the destination address matches a public address.
+
+Purpose of Protection:
+Prevent Unauthorized File Exfiltration: The query aims to detect potential unauthorized exfiltration of files by identifying when files are zipped using 7-Zip and sent to a public address. By monitoring such actions, organizations can take immediate steps to investigate and mitigate any potential data breaches.
+
+This Query Does the Following:
+Detects Password Changes: It looks for events where "net.exe" is used to change a password to a random 32-character string.
+
+Detects Process Termination: It looks for events where "winlogon.exe" is terminated, which could prevent logins and indicate malicious activity.
+
+Both queries are designed to spot potentially malicious or suspicious activities and provide early warnings to protect the organization's security.
+
+//LEQL
+
+where(event.command_line contains "7z.exe" AND event.command_line contains "a" AND event.destination_address matches /public/)
