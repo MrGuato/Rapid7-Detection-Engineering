@@ -1,0 +1,3 @@
+Remote Desktop Connection from Unusual Location: Detects RDP connections from locations not normally seen. (Requires location data to be enriched in InsightIDR).
+
+where eventType = "USER_AUTHENTICATION_SUCCESS" and authenticationType = "Remote Desktop Protocol" and location !in ("TrustedLocations")
