@@ -1,0 +1,3 @@
+Suspicious Scheduled Task Creation: Detects the creation of scheduled tasks that might be used for persistence.
+
+where eventType = "SCHEDULED_TASK_CREATED" and taskName =~ "(SuspiciousTask1|SuspiciousTask2)" // Add more as needed
