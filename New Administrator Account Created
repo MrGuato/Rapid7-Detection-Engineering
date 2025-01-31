@@ -1,0 +1,3 @@
+New Administrator Account Created: Detects the creation of new accounts with administrative privileges.
+
+where eventType = "USER_ACCOUNT_CREATED" and accountName !~ "(SYSTEM|LOCAL SERVICE|NETWORK SERVICE)" and accountPrivileges =~ "Administrator"
