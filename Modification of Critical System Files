@@ -1,0 +1,3 @@
+Modification of Critical System Files: Detects changes to important system files.
+
+where eventType = "FILE_MODIFICATION" and targetFilePath =~ "C:\\Windows\\System32\\.*\\(dll|exe|sys)"
