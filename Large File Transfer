@@ -1,0 +1,3 @@
+Large File Transfer: Detects potentially malicious data exfiltration.
+
+where eventType = "FILE_TRANSFER_SUCCESS" and fileSize > 104857600  // 100MB (adjust as needed)
