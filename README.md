@@ -1,26 +1,25 @@
-<h1>Rapid7 Detection Engineering Repository</h1>
+<h1>🚀 Welcome to the Rapid7 Detection Engineering Repository!</h1>
 
-![Stars](https://img.shields.io/github/stars/MrGuato/Rapid7-Detection-Engineering) 
-![Detections](https://img.shields.io/github/directory-file-count/MrGuato/Rapid7-Detection-Engineering/detections)
+![Rapid7 InsightIDR](https://img.shields.io/badge/Rapid7-InsightIDR-blue?style=for-the-badge&logo=rapid7&logoColor=white)
+![Detection Engineering](https://img.shields.io/badge/Detection%20Engineering-Active-red?style=for-the-badge)
+![SIEM Rules](https://img.shields.io/badge/SIEM-Rules-yellow?style=for-the-badge)
 
-Welcome to the Rapid7 Detection Engineering Repository! This repository is dedicated to providing a collection of detection rules and methods to enhance security monitoring and threat detection for the community.
+![GitHub Repo stars](https://img.shields.io/github/stars/MrGuato/Rapid7-Detection-Engineering?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/MrGuato/Rapid7-Detection-Engineering?style=for-the-badge)
 
-Detections
-This section contains all the detection rules categorized by the type of threat they address. We currently have XX detection rules. You can find the details of each rule in the detections directory.
+This repository is dedicated to enhancing security monitoring and threat detection by providing a comprehensive collection of detection rules and methodologies. Our goal is to empower the security community with actionable, well-crafted detections to identify and mitigate threats effectively.
 
-Here are some categories you might find:
+🔍 Detections:
+Our detections are categorized based on the threats they address. Currently, we have XX detection rules, all available in the detections directory.
 
-Malware Detection
+Categories include:
+✅ Malware Detection – Identify malicious software and indicators of compromise (IOCs)
+✅ Phishing Detection – Spot email-based threats, social engineering attempts, and credential harvesting
+✅ Intrusion Detection – Detect unauthorized access and exploitation attempts
+✅ Anomaly Detection – Flag unusual activities and deviations from baseline behavior
+✅ Behavioral Analysis – Uncover suspicious patterns and attacker tactics
 
-Phishing Detection
+🛠 Contributions: Before submitting a detection rule, please ensure it is well-documented and thoroughly tested to maintain high-quality standards.
 
-Intrusion Detection
-
-Anomaly Detection
-
-Behavioral Analysis
-
-Please ensure your detection rules are well-documented and tested before submission.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
