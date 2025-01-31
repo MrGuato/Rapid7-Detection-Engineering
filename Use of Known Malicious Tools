@@ -1,0 +1,3 @@
+Use of Known Malicious Tools: Detects the execution of known malicious tools (requires threat intelligence integration).
+
+where processName in ("mimikatz.exe", "psexec.exe", "net.exe") // Add more as needed
